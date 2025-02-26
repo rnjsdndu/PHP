@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: inherit;
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    justify-content: space-around;
+}
+
+.flexBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 500px;
+    height: 800px;
+}
+
+.flexBox > input{
+    width: 500px;
+    height: 30px;
+}
+
+.flexBox > textarea{
+    width: 500px;
+    height: 600px;
+}
+
+ul{
+    width: 500px;
+}
+
